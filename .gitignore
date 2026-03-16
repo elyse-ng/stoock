@@ -1,0 +1,36 @@
+# -----------------
+# Python / Flask
+# -----------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+instance/
+*.sqlite3
+
+# Environment variables
+.env
+
+# Flask logs / temporary files
+*.log
+*.db
+
+# -----------------
+# Node / React
+# -----------------
+node_modules/
+dist/
+build/
+
+# Vite
+.vite/
+
+# Optional local config
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
